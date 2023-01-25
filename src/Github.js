@@ -1,12 +1,14 @@
 import react from "react";
+import "./Github.css";
 
 export default function Github() {
   return (
-    <div class="footer-copyright text-center py-3">
+    <div className="footer-copyright text-center py-3">
       <a href="https://github.com/eljanaPalodhi/weather-react" target="_blank">
         {" "}
-        Github code{" "}
+        Source Code{" "}
       </a>
+      <small> Created by Eljana Palodhi </small>
     </div>
   );
 }
