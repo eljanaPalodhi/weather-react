@@ -1,17 +1,21 @@
 import react from "react";
 import "./App.css";
 import Weather from "./Weather";
-import Link from "./Github";
-import Github from "./Github";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Weather Search Engine </h1>
           <Weather />
-          <Github />
+          <footer>
+            <a href="" target="_blank" className="">
+              {" "}
+              Open-source code{" "}
+            </a>
+            by Eljana Palodhi
+            <a href="">hosted on Netlify</a>
+          </footer>
         </header>
       </div>
     </div>
