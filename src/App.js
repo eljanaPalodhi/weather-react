@@ -7,11 +7,13 @@ import Github from "./Github";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Weather Search Engine </h1>
-        <Weather />
-        <Github />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <h1>Weather Search Engine </h1>
+          <Weather />
+          <Github />
+        </header>
+      </div>
     </div>
   );
 }

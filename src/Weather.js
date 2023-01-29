@@ -38,7 +38,7 @@ export default function Weather() {
     <form onSubmit={handleSumbit}>
       <input type="search" placeholder="Type a city.." onChange={updateCity} />
 
-      <input type="submit" value="Search" />
+      <input className="btn btn-primary" type="submit" value="Search" />
     </form>
   );
 
